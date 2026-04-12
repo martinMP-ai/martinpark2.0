@@ -1,0 +1,21 @@
+{
+  "dashboard": {
+    "id": null,
+    "uid": null,
+    "title": "PM2-surfer-board",
+    "tags": ["enviroment-panel-P1", "query0"],
+    "timezone": "browser",
+    "schemaVersion": 38,
+    "version": 1,
+    "panels": [
+      {
+        "type": "text",
+        "title": "Environment Controls",
+        "id": 1,
+        "gridPos": {"h": 10, "w": 24, "x": 0, "y": 0},
+        "options": {"mode": "markdown", "content": "# Environment Controls  `enviroment-panel-P1`, `query0`\n\nTo manage your Python environments, use the following commands in your terminal:\n\n- **Check vitacom venv:**  \n  `bash ~/control_envs.sh check`\n\n- **Activate vitacom venv:**  \n  `bash ~/control_envs.sh activate`\n\n- **Deactivate vitacom venv:**  \n  `bash ~/control_envs.sh deactivate`\n\n- **Show system Python info:**  \n  `bash ~/control_envs.sh system`\n\n- **Show help:**  \n  `bash ~/control_envs.sh help`\n\n> Enable or disable the vitacom environment as needed.  \n> These commands do not affect Grafana directly, but help you manage your Python environments for development and scripts."}
+      }
+    ]
+  },
+  "overwrite": true
+}
